@@ -2,6 +2,7 @@ import { createStore } from 'vuex';
 import counter from './modules/counter';
 import displays from './modules/displays';
 import connection from './modules/connection';
+import music from './modules/music'
 import crestron from './plugins/crestron';
 
 export default createStore({
@@ -19,6 +20,7 @@ export default createStore({
         counter: counter,
         displays: displays,
         connection: connection,
+        music: music,
     },
     plugins: [crestron()],
 });

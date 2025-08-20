@@ -33,5 +33,12 @@ export default function processMutation(store, mutation) {
             );
             break;
         }
+        case 'music/toggleMutationPower': {
+            socket?.send(
+                `music|${mutation.payload.id}|${
+                    mutation.payload.power ? 'power_on' : 'power_off'
+                }`
+            )
+        }
     }
 }
