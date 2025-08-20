@@ -3,6 +3,7 @@
         <img alt="logo" src="../assets/logo.png" />
         <router-link to="/" class="btn-nav">Home</router-link>
         <router-link to="/displays" class="btn-nav">Displays</router-link>
+        <router-link to="/Music" class="btn-nav">Music</router-link>
     </div>
 </template>
 

@@ -81,6 +81,12 @@ a {
         color: $color-white;
     }
 
+    &.salmon {
+        background-color: lightsalmon;
+        border-color: lightsalmon;
+        color: white;
+    }
+
     &:active {
         background: lighten($color-primary, 10);
         border-color: lighten($color-primary, 10);
